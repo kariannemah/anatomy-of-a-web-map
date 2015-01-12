@@ -1,28 +1,29 @@
-<html>
-  <head>
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
-    <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+
+<!-- saved from url=(0051)http://maptime.io/anatomy-of-a-web-map/leaflet.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css">
+    <script src="./leaflet_files/leaflet.js"></script><style type="text/css"></style>
     <style type="text/css">
       #mapdiv { height: 100%; }
     </style>
-  </head>
-  <body>
-    <div id="mapdiv"></div>
+  <style>img.chromoji { width:1em !important; height:1em !important; }.chromoji-font, #chromoji-font { font-size:1em !important; }</style><style type="text/css"></style><link rel="stylesheet" type="text/css" href="chrome-extension://pkehgijcmpdhfbdbbnkijodmdjhbjlgp/skin/socialwidgets.css"><link rel="stylesheet" type="text/css" href="./leaflet_files/modal.css"></head>
+  <body data-feedly-mini="yes">
+    <div id="mapdiv" class="leaflet-container leaflet-retina leaflet-fade-anim" tabindex="0" style="position: relative;"><div class="leaflet-map-pane" style="transform: translate3d(0px, -18px, 0px);"><div class="leaflet-tile-pane"><div class="leaflet-layer"><div class="leaflet-tile-container leaflet-zoom-animated"></div><div class="leaflet-tile-container leaflet-zoom-animated"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; left: 509px; top: 239px;" src="./leaflet_files/1583.jpg"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; left: 253px; top: 239px;" src="./leaflet_files/1583(1).jpg"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; left: 509px; top: -17px;" src="./leaflet_files/1582.jpg"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; left: 253px; top: -17px;" src="./leaflet_files/1582(1).jpg"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; left: 253px; top: 495px;" src="./leaflet_files/1584.jpg"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; left: 509px; top: 495px;" src="./leaflet_files/1584(1).jpg"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; left: -3px; top: 239px;" src="./leaflet_files/1583(2).jpg"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; left: 765px; top: 239px;" src="./leaflet_files/1583(3).jpg"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; left: -3px; top: 495px;" src="./leaflet_files/1584(2).jpg"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; left: -3px; top: -17px;" src="./leaflet_files/1582(2).jpg"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; left: 765px; top: -17px;" src="./leaflet_files/1582(3).jpg"><img class="leaflet-tile leaflet-tile-loaded" style="height: 256px; width: 256px; left: 765px; top: 495px;" src="./leaflet_files/1584(3).jpg"></div></div></div><div class="leaflet-objects-pane"><div class="leaflet-shadow-pane"><img src="./leaflet_files/marker-shadow.png" class="leaflet-marker-shadow  leaflet-zoom-animated" style="margin-left: -12px; margin-top: -41px; width: 41px; height: 41px; transform: translate3d(299px, 293px, 0px);"></div><div class="leaflet-overlay-pane"></div><div class="leaflet-marker-pane"><img src="./leaflet_files/marker-icon-2x.png" class="leaflet-marker-icon  leaflet-zoom-animated leaflet-clickable" tabindex="0" style="margin-left: -12px; margin-top: -41px; width: 25px; height: 41px; transform: translate3d(299px, 293px, 0px); z-index: 293;"></div><div class="leaflet-popup-pane"></div></div></div><div class="leaflet-control-container"><div class="leaflet-top leaflet-left"><div class="leaflet-control-zoom leaflet-bar leaflet-control"><a class="leaflet-control-zoom-in" href="http://maptime.io/anatomy-of-a-web-map/leaflet.html#" title="Zoom in">+</a><a class="leaflet-control-zoom-out" href="http://maptime.io/anatomy-of-a-web-map/leaflet.html#" title="Zoom out">-</a></div></div><div class="leaflet-top leaflet-right"></div><div class="leaflet-bottom leaflet-left"></div><div class="leaflet-bottom leaflet-right"><div class="leaflet-control-attribution leaflet-control"><a href="http://leafletjs.com/" title="A JS library for interactive maps">Leaflet</a> | Map tiles by <a href="http://stamen.com/">Stamen Design</a>, under CC BY 3.0. Data by <a href="http://openstreetmap.org/">OpenStreetMap</a>, under CC BY SA.</div></div></div></div>
 
     <script>
 
       var geojsonFeature = {
         "type": "Feature",
         "properties": {
-            "name": "PARISOMA"
+            "name": "Hacker Lab"
         },
         "geometry": {
             "type": "Point",
-            "coordinates": [-122.41598, 37.77349]
+            "coordinates": [ -121.482753, 38.579016]
         }
       };
 
-      var mapvar = L.map('mapdiv').setView([37.7706,-122.3782],12);
+      var mapvar = L.map('mapdiv').setView([38.5556,-121.4689],12);
 
       var tileLayer = L.tileLayer(
         'http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.jpg', 
@@ -44,5 +45,85 @@
 
     </script>
 
-  </body>
-</html>
+  
+
+<div id="gleeBox" style="display:none" class="GleeThemeDefault gleeMediumSize"><input type="text" id="gleeSearchField" value="" autocomplete="off" class="ac_input GleeThemeDefault gleeMediumSize"><div id="gleeSub"><div id="gleeSubText"></div><div id="gleeSearchActivity"></div><div id="gleeSubURL"></div></div></div><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="0" height="0" style="display: none;">
+	<defs>
+		<filter id="normal">
+			<fecolormatrix values="1 0 0 0 0     0 1 0 0 0     0 0 1 0 0     0 0 0 1 0"></fecolormatrix>
+		</filter>
+		<filter id="protanopia" color-interpolation-filters="sRGB">
+			<fecolormatrix values="0.152286 1.052583 -0.204868 0 0     0.114503 0.786281 0.099216 0 0     -0.003882 -0.048116 1.051998 0 0     0 0 0 1 0"></fecolormatrix>
+			<fecomponenttransfer>
+				<fefuncb type="gamma" exponent=".9"></fefuncb>
+				<fefuncr type="gamma" exponent=".9"></fefuncr>
+				<fefuncg type="gamma" exponent=".9"></fefuncg>
+			</fecomponenttransfer>
+		</filter>
+		<filter id="protanomaly" color-interpolation-filters="sRGB">
+			<fecolormatrix values="0.458064 0.679578 -0.137642 0 0     0.092785 0.846313 0.060902 0 0     -0.007494 -0.016807 1.024301 0 0     0 0 0 1 0"></fecolormatrix>
+			<fecomponenttransfer>
+				<fefuncb type="gamma" exponent=".9"></fefuncb>
+				<fefuncr type="gamma" exponent=".9"></fefuncr>
+				<fefuncg type="gamma" exponent=".9"></fefuncg>
+			</fecomponenttransfer>
+		</filter>
+		<filter id="deuteranopia" color-interpolation-filters="sRGB">
+			<fecolormatrix values="0.367322 0.860646 -0.227968 0 0     0.280085 0.672501 0.047413 0 0     -0.011820 0.042940 0.968881 0 0     0 0 0 1 0"></fecolormatrix>
+			<fecomponenttransfer>
+				<fefuncb type="gamma" exponent=".9"></fefuncb>
+				<fefuncr type="gamma" exponent=".9"></fefuncr>
+				<fefuncg type="gamma" exponent=".9"></fefuncg>
+			</fecomponenttransfer>
+		</filter>
+		<filter id="deuteranomaly" color-interpolation-filters="sRGB">
+			<fecolormatrix values="0.547494 0.607765 -0.155259 0 0     0.181692 0.781742 0.036566 0 0     -0.010410 0.027275 0.983136 0 0     0 0 0 1 0"></fecolormatrix>
+			<fecomponenttransfer>
+				<fefuncb type="gamma" exponent=".9"></fefuncb>
+				<fefuncr type="gamma" exponent=".9"></fefuncr>
+				<fefuncg type="gamma" exponent=".9"></fefuncg>
+			</fecomponenttransfer>
+		</filter>
+		<filter id="tritanopia" color-interpolation-filters="sRGB">
+			<fecolormatrix values="1.255528 -0.076749 -0.178779 0 0     -0.078411 0.930809 0.147602 0 0     0.004733 0.691367 0.303900 0 0     0 0 0 1 0"></fecolormatrix>
+			<fecomponenttransfer>
+				<fefuncb type="gamma" exponent=".9"></fefuncb>
+				<fefuncr type="gamma" exponent=".9"></fefuncr>
+				<fefuncg type="gamma" exponent=".9"></fefuncg>
+			</fecomponenttransfer>
+		</filter>
+		<filter id="tritanomaly" color-interpolation-filters="sRGB">
+			<fecolormatrix values="1.017277 0.027029 -0.044306 0 0     -0.006113 0.958479 0.047634 0 0     0.006379 0.248708 0.744913 0 0     0 0 0 1 0"></fecolormatrix>
+			<fecomponenttransfer>
+				<fefuncb type="gamma" exponent=".9"></fefuncb>
+				<fefuncr type="gamma" exponent=".9"></fefuncr>
+				<fefuncg type="gamma" exponent=".9"></fefuncg>
+			</fecomponenttransfer>
+		</filter>
+		<filter id="achromatopsia" color-interpolation-filters="sRGB">
+			<fecolormatrix values="0.212656 0.715158 0.072186 0 0     0.212656 0.715158 0.072186 0 0     0.212656 0.715158 0.072186 0 0     0 0 0 1 0"></fecolormatrix>
+			<fecolormatrix type="saturate" values="0" color-interpolation-filters="sRGB"></fecolormatrix>
+			<fecomponenttransfer>
+				<fefuncr type="gamma" exponent=".9"></fefuncr>
+				<fefuncg type="gamma" exponent=".9"></fefuncg>
+				<fefuncb type="gamma" exponent=".9"></fefuncb>
+			</fecomponenttransfer>
+		</filter>
+		<filter id="achromatomaly" color-interpolation-filters="sRGB">
+			<fecolormatrix type="saturate" values="0.5"></fecolormatrix>
+			<fecomponenttransfer>
+				<fefuncr type="gamma" exponent=".9"></fefuncr>
+				<fefuncg type="gamma" exponent=".9"></fefuncg>
+				<fefuncb type="gamma" exponent=".9"></fefuncb>
+			</fecomponenttransfer>
+		</filter>
+		<filter id="low-contrast" color-interpolation-filters="sRGB">
+			<fecomponenttransfer>
+				<!-- slope = [amount] intercept = (1 - [amount] / 2) -->
+				<fefuncr type="linear" slope=".5" intercept=".25"></fefuncr>
+				<fefuncg type="linear" slope=".5" intercept=".25"></fefuncg>
+				<fefuncb type="linear" slope=".5" intercept=".25"></fefuncb>
+			</fecomponenttransfer>
+		</filter>
+	</defs>
+</svg><div id="feedly-mini" title="feedly Mini tookit"></div></body><style type="text/css">/*This block of style rules is injected by gleeBox*/.GleeReaped { background-color: #f9f2a5 !important; outline: 1px dotted #818181 !important; } .GleeHL { -webkit-box-shadow: hsla(71, 89%, 70%, 1) -2px -2px 0px, hsla(71, 89%, 70%, 1)  2px -2px 0px, hsla(71, 100%, 45%, 1) -2px  2px 0px, hsla(71, 100%, 45%, 1)  2px  2px 0px, hsla(71, 100%, 80%, 1)  0px 0px 0px 3px, rgba(42, 35, 0, 0.8)  1px  1px 3px 3px !important; border-radius: 3px !important; color: #000 !important; outline: none !important; border: none !important; background: -webkit-gradient(linear, left bottom, left top, color-stop(0, hsla(71, 100%, 47%, 1)), color-stop(1, hsla(71, 89%, 70%, 1))) !important;} a.GleeHL, .GleeHL a {color: #000 !important;} input[type=checkbox].GleeHL, input[type=radio].GleeHL { outline: 5px solid hsla(71, 89%, 70%, 1) !important;}</style></html>

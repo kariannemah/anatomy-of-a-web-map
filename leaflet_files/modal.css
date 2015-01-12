@@ -1,0 +1,792 @@
+.sct-modal-better-deal {
+  /**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+  /* HTML5 display-role reset for older browsers */
+}
+.sct-modal-better-deal html,
+.sct-modal-better-deal body,
+.sct-modal-better-deal div,
+.sct-modal-better-deal span,
+.sct-modal-better-deal applet,
+.sct-modal-better-deal object,
+.sct-modal-better-deal iframe,
+.sct-modal-better-deal h1,
+.sct-modal-better-deal h2,
+.sct-modal-better-deal h3,
+.sct-modal-better-deal h4,
+.sct-modal-better-deal h5,
+.sct-modal-better-deal h6,
+.sct-modal-better-deal p,
+.sct-modal-better-deal blockquote,
+.sct-modal-better-deal pre,
+.sct-modal-better-deal a,
+.sct-modal-better-deal abbr,
+.sct-modal-better-deal acronym,
+.sct-modal-better-deal address,
+.sct-modal-better-deal big,
+.sct-modal-better-deal cite,
+.sct-modal-better-deal code,
+.sct-modal-better-deal del,
+.sct-modal-better-deal dfn,
+.sct-modal-better-deal em,
+.sct-modal-better-deal img,
+.sct-modal-better-deal ins,
+.sct-modal-better-deal kbd,
+.sct-modal-better-deal q,
+.sct-modal-better-deal s,
+.sct-modal-better-deal samp,
+.sct-modal-better-deal small,
+.sct-modal-better-deal strike,
+.sct-modal-better-deal strong,
+.sct-modal-better-deal sub,
+.sct-modal-better-deal sup,
+.sct-modal-better-deal tt,
+.sct-modal-better-deal var,
+.sct-modal-better-deal b,
+.sct-modal-better-deal u,
+.sct-modal-better-deal i,
+.sct-modal-better-deal center,
+.sct-modal-better-deal dl,
+.sct-modal-better-deal dt,
+.sct-modal-better-deal dd,
+.sct-modal-better-deal ol,
+.sct-modal-better-deal ul,
+.sct-modal-better-deal li,
+.sct-modal-better-deal fieldset,
+.sct-modal-better-deal form,
+.sct-modal-better-deal label,
+.sct-modal-better-deal legend,
+.sct-modal-better-deal table,
+.sct-modal-better-deal caption,
+.sct-modal-better-deal tbody,
+.sct-modal-better-deal tfoot,
+.sct-modal-better-deal thead,
+.sct-modal-better-deal tr,
+.sct-modal-better-deal th,
+.sct-modal-better-deal td,
+.sct-modal-better-deal article,
+.sct-modal-better-deal aside,
+.sct-modal-better-deal canvas,
+.sct-modal-better-deal details,
+.sct-modal-better-deal embed,
+.sct-modal-better-deal figure,
+.sct-modal-better-deal figcaption,
+.sct-modal-better-deal footer,
+.sct-modal-better-deal header,
+.sct-modal-better-deal hgroup,
+.sct-modal-better-deal menu,
+.sct-modal-better-deal nav,
+.sct-modal-better-deal output,
+.sct-modal-better-deal ruby,
+.sct-modal-better-deal section,
+.sct-modal-better-deal summary,
+.sct-modal-better-deal time,
+.sct-modal-better-deal mark,
+.sct-modal-better-deal audio,
+.sct-modal-better-deal video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 12px;
+  font: inherit;
+  vertical-align: baseline;
+  text-align: left;
+  font-family: arial;
+  font-weight: normal;
+  float: none;
+}
+.sct-modal-better-deal article,
+.sct-modal-better-deal aside,
+.sct-modal-better-deal details,
+.sct-modal-better-deal figcaption,
+.sct-modal-better-deal figure,
+.sct-modal-better-deal footer,
+.sct-modal-better-deal header,
+.sct-modal-better-deal hgroup,
+.sct-modal-better-deal menu,
+.sct-modal-better-deal nav,
+.sct-modal-better-deal section {
+  display: block;
+}
+.sct-modal-better-deal body {
+  line-height: 1;
+}
+.sct-modal-better-deal ol,
+.sct-modal-better-deal ul {
+  list-style: none;
+}
+.sct-modal-better-deal blockquote,
+.sct-modal-better-deal q {
+  quotes: none;
+}
+.sct-modal-better-deal blockquote:before,
+.sct-modal-better-deal blockquote:after,
+.sct-modal-better-deal q:before,
+.sct-modal-better-deal q:after {
+  content: '';
+  content: none;
+}
+.sct-modal-better-deal table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.sct-modal-better-deal * {
+  box-sizing: content-box;
+  font-family: arial;
+}
+.sct-modal-better-deal p,
+.sct-modal-better-deal td {
+  vertical-align: top;
+  padding-left: 20px;
+}
+.sct-modal-better-deal #framework {
+  height: 302px;
+  width: 770px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.sct-modal-better-deal .hold_message {
+  font-size: 21px;
+  font-weight: bold;
+  color: #686868;
+  background-image: url(http://static.secondchance.s3.amazonaws.com/modals/offer/images/hold_icon.png);
+  background-repeat: no-repeat;
+  padding-top: 35px;
+  padding-left: 75px;
+  padding-bottom: 18px;
+  background-position: 25px 30px;
+}
+.sct-modal-better-deal .product_image {
+  margin-left: 25px;
+  padding-top: 25px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 275px;
+  width: 250px;
+}
+.sct-modal-better-deal .product_image img {
+  max-width: 245px;
+  max-height: 245px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.sct-modal-better-deal .holdon_pricing {
+  float: right;
+  display: table-cell;
+  width: 450px;
+  padding-top: 10px;
+  padding-right: 25px;
+}
+.sct-modal-better-deal .product_title {
+  font-size: 15px;
+  padding-left: 75px;
+  color: #646464;
+  margin-bottom: 15px;
+  max-height: 20px;
+  display: block;
+  margin-top: 0px;
+  overflow: hidden;
+}
+.sct-modal-better-deal .tabledivide {
+  padding-left: 15px;
+}
+.sct-modal-better-deal .divider {
+  width: 5px;
+}
+.sct-modal-better-deal .divider img {
+  height: 100px;
+}
+.sct-modal-better-deal .pricetable {
+  margin-top: 10px;
+}
+.sct-modal-better-deal .greytext {
+  color: #7E7B7B;
+}
+.sct-modal-better-deal #oval {
+  background-image: url(http://static.secondchance.s3.amazonaws.com/modals/offer/images/oval.png);
+  height: 55px;
+  width: 150px;
+  color: #686868;
+  background-repeat: no-repeat;
+  font-size: 27px;
+  padding-top: 24px;
+  padding-left: 20px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.sct-modal-better-deal #slash {
+  background-image: url(http://static.secondchance.s3.amazonaws.com/modals/offer/images/slash.png);
+  height: 55px;
+  color: #686868;
+  background-repeat: no-repeat;
+  font-size: 27px;
+  padding-top: 24px;
+  padding-left: 25px;
+  font-weight: bold;
+}
+.sct-modal-better-deal .savingsholder {
+  text-align: center;
+}
+.sct-modal-better-deal .savings {
+  color: #686868;
+  font-size: 15px;
+}
+.sct-modal-better-deal #footer {
+  background-color: #f3f3f3;
+  height: 99px;
+  width: 735px;
+  margin: 0px auto;
+  padding-left: 35px;
+}
+.sct-modal-better-deal .sct-logo {
+  float: left;
+  padding-top: 33.5px;
+}
+.sct-modal-better-deal .actionbutton {
+  float: right;
+  padding-top: 21.5px;
+  padding-right: 25px;
+}
+.sct-modal-better-deal .logosold {
+  text-align: center;
+}
+.sct-modal-better-deal .logosold img {
+  max-height: 65px;
+  max-width: 130px;
+}
+.sct-modal-best-price {
+  /**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+  /* HTML5 display-role reset for older browsers */
+}
+.sct-modal-best-price html,
+.sct-modal-best-price body,
+.sct-modal-best-price div,
+.sct-modal-best-price span,
+.sct-modal-best-price applet,
+.sct-modal-best-price object,
+.sct-modal-best-price iframe,
+.sct-modal-best-price h1,
+.sct-modal-best-price h2,
+.sct-modal-best-price h3,
+.sct-modal-best-price h4,
+.sct-modal-best-price h5,
+.sct-modal-best-price h6,
+.sct-modal-best-price p,
+.sct-modal-best-price blockquote,
+.sct-modal-best-price pre,
+.sct-modal-best-price a,
+.sct-modal-best-price abbr,
+.sct-modal-best-price acronym,
+.sct-modal-best-price address,
+.sct-modal-best-price big,
+.sct-modal-best-price cite,
+.sct-modal-best-price code,
+.sct-modal-best-price del,
+.sct-modal-best-price dfn,
+.sct-modal-best-price em,
+.sct-modal-best-price img,
+.sct-modal-best-price ins,
+.sct-modal-best-price kbd,
+.sct-modal-best-price q,
+.sct-modal-best-price s,
+.sct-modal-best-price samp,
+.sct-modal-best-price small,
+.sct-modal-best-price strike,
+.sct-modal-best-price strong,
+.sct-modal-best-price sub,
+.sct-modal-best-price sup,
+.sct-modal-best-price tt,
+.sct-modal-best-price var,
+.sct-modal-best-price b,
+.sct-modal-best-price u,
+.sct-modal-best-price i,
+.sct-modal-best-price center,
+.sct-modal-best-price dl,
+.sct-modal-best-price dt,
+.sct-modal-best-price dd,
+.sct-modal-best-price ol,
+.sct-modal-best-price ul,
+.sct-modal-best-price li,
+.sct-modal-best-price fieldset,
+.sct-modal-best-price form,
+.sct-modal-best-price label,
+.sct-modal-best-price legend,
+.sct-modal-best-price table,
+.sct-modal-best-price caption,
+.sct-modal-best-price tbody,
+.sct-modal-best-price tfoot,
+.sct-modal-best-price thead,
+.sct-modal-best-price tr,
+.sct-modal-best-price th,
+.sct-modal-best-price td,
+.sct-modal-best-price article,
+.sct-modal-best-price aside,
+.sct-modal-best-price canvas,
+.sct-modal-best-price details,
+.sct-modal-best-price embed,
+.sct-modal-best-price figure,
+.sct-modal-best-price figcaption,
+.sct-modal-best-price footer,
+.sct-modal-best-price header,
+.sct-modal-best-price hgroup,
+.sct-modal-best-price menu,
+.sct-modal-best-price nav,
+.sct-modal-best-price output,
+.sct-modal-best-price ruby,
+.sct-modal-best-price section,
+.sct-modal-best-price summary,
+.sct-modal-best-price time,
+.sct-modal-best-price mark,
+.sct-modal-best-price audio,
+.sct-modal-best-price video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 12px;
+  font: inherit;
+  vertical-align: baseline;
+  text-align: left;
+  font-family: arial;
+  font-weight: normal;
+  float: none;
+}
+.sct-modal-best-price article,
+.sct-modal-best-price aside,
+.sct-modal-best-price details,
+.sct-modal-best-price figcaption,
+.sct-modal-best-price figure,
+.sct-modal-best-price footer,
+.sct-modal-best-price header,
+.sct-modal-best-price hgroup,
+.sct-modal-best-price menu,
+.sct-modal-best-price nav,
+.sct-modal-best-price section {
+  display: block;
+}
+.sct-modal-best-price body {
+  line-height: 1;
+}
+.sct-modal-best-price ol,
+.sct-modal-best-price ul {
+  list-style: none;
+}
+.sct-modal-best-price blockquote,
+.sct-modal-best-price q {
+  quotes: none;
+}
+.sct-modal-best-price blockquote:before,
+.sct-modal-best-price blockquote:after,
+.sct-modal-best-price q:before,
+.sct-modal-best-price q:after {
+  content: '';
+  content: none;
+}
+.sct-modal-best-price table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.sct-modal-best-price * {
+  box-sizing: content-box;
+  font-family: arial;
+}
+.sct-modal-best-price p,
+.sct-modal-best-price td {
+  vertical-align: middle;
+}
+.sct-modal-best-price #framework {
+  height: 302px;
+  width: 770px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.sct-modal-best-price .hold_message {
+  font-size: 26px;
+  font-weight: bold;
+  color: #686868;
+  background-image: url(http://static.secondchance.s3.amazonaws.com/modals/offer/images/check_icon.png);
+  background-repeat: no-repeat;
+  padding-top: 35px;
+  padding-left: 47px;
+  padding-bottom: 10px;
+  background-position: 0px 30px;
+}
+.sct-modal-best-price .product_image {
+  margin-left: 25px;
+  padding-top: 25px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 275px;
+  width: 250px;
+}
+.sct-modal-best-price .product_image img {
+  max-width: 245px;
+  max-height: 245px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.sct-modal-best-price .holdon_pricing {
+  float: right;
+  display: table-cell;
+  width: 450px;
+  padding-top: 10px;
+  padding-right: 25px;
+}
+.sct-modal-best-price .product_title {
+  font-size: 18px;
+  padding-left: 47px;
+  color: #646464;
+  margin-bottom: 15px;
+  max-height: 20px;
+  display: block;
+  margin-top: 0px;
+  overflow: hidden;
+}
+.sct-modal-best-price .altlink {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.sct-modal-best-price .altlink td {
+  padding-left: 25px;
+}
+.sct-modal-best-price .tabledivide {
+  padding-left: 15px;
+}
+.sct-modal-best-price .divider {
+  width: 5px;
+}
+.sct-modal-best-price .divider img {
+  height: 100px;
+}
+.sct-modal-best-price .pricetable {
+  margin-top: 40px;
+}
+.sct-modal-best-price .greytext {
+  color: #7E7B7B;
+}
+.sct-modal-best-price #oval {
+  height: 35px;
+  width: 150px;
+  color: #1EB23D;
+  font-size: 27px;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+}
+.sct-modal-best-price #slash {
+  background-image: url(http://static.secondchance.s3.amazonaws.com/modals/offer/images/slash.png);
+  height: 55px;
+  background-repeat: no-repeat;
+  font-size: 27px;
+  color: #686868;
+  padding-top: 15px;
+  padding-left: 25px;
+  font-weight: bold;
+}
+.sct-modal-best-price .savings {
+  font-size: 12px;
+  text-align: left;
+  color: #0BA84D;
+  font-weight: bold;
+}
+.sct-modal-best-price #footer {
+  background-color: #f3f3f3;
+  height: 99px;
+  width: 735px;
+  float: left;
+  margin: 0px auto;
+  padding-left: 35px;
+}
+.sct-modal-best-price .sct-logo {
+  float: left;
+  padding-top: 33.5px;
+}
+.sct-modal-best-price .actionbutton {
+  float: right;
+  padding-top: 21.5px;
+  padding-right: 25px;
+}
+.sct-modal-best-price .logosold {
+  text-align: center;
+}
+.sct-modal-best-price .logosold img {
+  max-height: 65px;
+  max-width: 130px;
+}
+.sct-modal-no-match {
+  /**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+  /* HTML5 display-role reset for older browsers */
+}
+.sct-modal-no-match html,
+.sct-modal-no-match body,
+.sct-modal-no-match div,
+.sct-modal-no-match span,
+.sct-modal-no-match applet,
+.sct-modal-no-match object,
+.sct-modal-no-match iframe,
+.sct-modal-no-match h1,
+.sct-modal-no-match h2,
+.sct-modal-no-match h3,
+.sct-modal-no-match h4,
+.sct-modal-no-match h5,
+.sct-modal-no-match h6,
+.sct-modal-no-match p,
+.sct-modal-no-match blockquote,
+.sct-modal-no-match pre,
+.sct-modal-no-match a,
+.sct-modal-no-match abbr,
+.sct-modal-no-match acronym,
+.sct-modal-no-match address,
+.sct-modal-no-match big,
+.sct-modal-no-match cite,
+.sct-modal-no-match code,
+.sct-modal-no-match del,
+.sct-modal-no-match dfn,
+.sct-modal-no-match em,
+.sct-modal-no-match img,
+.sct-modal-no-match ins,
+.sct-modal-no-match kbd,
+.sct-modal-no-match q,
+.sct-modal-no-match s,
+.sct-modal-no-match samp,
+.sct-modal-no-match small,
+.sct-modal-no-match strike,
+.sct-modal-no-match strong,
+.sct-modal-no-match sub,
+.sct-modal-no-match sup,
+.sct-modal-no-match tt,
+.sct-modal-no-match var,
+.sct-modal-no-match b,
+.sct-modal-no-match u,
+.sct-modal-no-match i,
+.sct-modal-no-match center,
+.sct-modal-no-match dl,
+.sct-modal-no-match dt,
+.sct-modal-no-match dd,
+.sct-modal-no-match ol,
+.sct-modal-no-match ul,
+.sct-modal-no-match li,
+.sct-modal-no-match fieldset,
+.sct-modal-no-match form,
+.sct-modal-no-match label,
+.sct-modal-no-match legend,
+.sct-modal-no-match table,
+.sct-modal-no-match caption,
+.sct-modal-no-match tbody,
+.sct-modal-no-match tfoot,
+.sct-modal-no-match thead,
+.sct-modal-no-match tr,
+.sct-modal-no-match th,
+.sct-modal-no-match td,
+.sct-modal-no-match article,
+.sct-modal-no-match aside,
+.sct-modal-no-match canvas,
+.sct-modal-no-match details,
+.sct-modal-no-match embed,
+.sct-modal-no-match figure,
+.sct-modal-no-match figcaption,
+.sct-modal-no-match footer,
+.sct-modal-no-match header,
+.sct-modal-no-match hgroup,
+.sct-modal-no-match menu,
+.sct-modal-no-match nav,
+.sct-modal-no-match output,
+.sct-modal-no-match ruby,
+.sct-modal-no-match section,
+.sct-modal-no-match summary,
+.sct-modal-no-match time,
+.sct-modal-no-match mark,
+.sct-modal-no-match audio,
+.sct-modal-no-match video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 12px;
+  font: inherit;
+  vertical-align: baseline;
+  text-align: left;
+  font-family: arial;
+  font-weight: normal;
+  float: none;
+}
+.sct-modal-no-match article,
+.sct-modal-no-match aside,
+.sct-modal-no-match details,
+.sct-modal-no-match figcaption,
+.sct-modal-no-match figure,
+.sct-modal-no-match footer,
+.sct-modal-no-match header,
+.sct-modal-no-match hgroup,
+.sct-modal-no-match menu,
+.sct-modal-no-match nav,
+.sct-modal-no-match section {
+  display: block;
+}
+.sct-modal-no-match body {
+  line-height: 1;
+}
+.sct-modal-no-match ol,
+.sct-modal-no-match ul {
+  list-style: none;
+}
+.sct-modal-no-match blockquote,
+.sct-modal-no-match q {
+  quotes: none;
+}
+.sct-modal-no-match blockquote:before,
+.sct-modal-no-match blockquote:after,
+.sct-modal-no-match q:before,
+.sct-modal-no-match q:after {
+  content: '';
+  content: none;
+}
+.sct-modal-no-match table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.sct-modal-no-match * {
+  box-sizing: content-box;
+  font-family: arial;
+}
+.sct-modal-no-match p,
+.sct-modal-no-match td {
+  vertical-align: middle;
+}
+.sct-modal-no-match #framework {
+  height: 302px;
+  width: 770px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.sct-modal-no-match .hold_message {
+  font-size: 21px;
+  font-weight: bold;
+  color: #686868;
+  background-image: url(http://static.secondchance.s3.amazonaws.com/modals/offer/images/check_icon.png);
+  background-repeat: no-repeat;
+  padding-top: 35px;
+  padding-left: 75px;
+  padding-bottom: 10px;
+  background-position: 25px 30px;
+}
+.sct-modal-no-match .product_image {
+  margin-left: 25px;
+  padding-top: 25px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 275px;
+  width: 250px;
+}
+.sct-modal-no-match .product_image img {
+  max-width: 245px;
+  max-height: 245px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.sct-modal-no-match .holdon_pricing {
+  float: right;
+  display: table-cell;
+  width: 450px;
+  padding-top: 10px;
+  padding-right: 25px;
+}
+.sct-modal-no-match .product_title {
+  font-size: 15px;
+  padding-left: 75px;
+  color: #646464;
+  margin-bottom: 15px;
+  max-height: 20px;
+  display: block;
+  margin-top: 0px;
+  overflow: hidden;
+}
+.sct-modal-no-match .tabledivide {
+  padding-left: 15px;
+}
+.sct-modal-no-match .divider {
+  width: 5px;
+}
+.sct-modal-no-match .divider img {
+  height: 100px;
+}
+.sct-modal-no-match .pricetable {
+  margin-top: 40px;
+}
+.sct-modal-no-match .greytext {
+  color: #7E7B7B;
+}
+.sct-modal-no-match #oval {
+  height: 35px;
+  width: 150px;
+  color: #1CB23B;
+  font-size: 27px;
+  font-weight: bold;
+  margin: auto;
+  text-align: center;
+}
+.sct-modal-no-match #message {
+  color: #646464;
+  font-size: 17px;
+  padding-right: 25px;
+}
+.sct-modal-no-match #slash {
+  background-image: url(http://static.secondchance.s3.amazonaws.com/modals/offer/images/slash.png);
+  height: 55px;
+  background-repeat: no-repeat;
+  font-size: 27px;
+  padding-top: 15px;
+  padding-left: 25px;
+  font-weight: bold;
+}
+.sct-modal-no-match .savings {
+  font-size: 12px;
+  text-align: left;
+  color: #0BA84D;
+  font-weight: bold;
+}
+.sct-modal-no-match #footer {
+  background-color: #f3f3f3;
+  height: 99px;
+  width: 735px;
+  margin: 0px auto;
+  padding-left: 35px;
+}
+.sct-modal-no-match .sct-logo {
+  float: left;
+  padding-top: 33.5px;
+}
+.sct-modal-no-match .actionbutton {
+  float: right;
+  padding-top: 21.5px;
+  padding-right: 25px;
+}
+.sct-modal-no-match .logosold img {
+  float: right;
+  padding-right: 30px;
+}
+.sct-modal-no-match .logosold img {
+  max-height: 65px;
+  max-width: 130px;
+}
